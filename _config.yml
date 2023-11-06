@@ -25,6 +25,11 @@ github_username:  teguh-elektro
 instagram_username:  midori.board
 youtube_username:  '@teguhsetiawan8910'
 
+disqus:
+  shortname: 'teguh-elektro'
+
+google_analytics: 'G-FZNZ964PT3'
+
 # Build settings
 theme: minima
 plugins:
