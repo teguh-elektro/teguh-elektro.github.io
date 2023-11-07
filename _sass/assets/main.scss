@@ -1,20 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
 .container-card {
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 10;
 }
 .profile-card {
+    position: relative;
+    z-index: 10;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -47,7 +40,13 @@ body {
 .social-link img {
     width: 32px;
     height: 32px;
+    transition: transform 0.3s;
 }
+
+.social-link img:hover {
+    transform: scale(1.2);
+}
+
 h1 {
     color: #333;
 }
@@ -67,4 +66,275 @@ p {
     z-index: 1;
     left: 0px;
     top: 0px;
+}
+
+.container-work-card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-card {
+    position: relative;
+    max-width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    transform: scale(1);
+    transition: transform 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0px 12px;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.card-image:hover {
+    transform: scale(1.05);
+}
+
+.work-card:hover .card-image {
+    transform: scale(1.05);
+}
+
+.work-card > .card-background {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .90) 90%);
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.work-card > .card-background > .card-content {
+    padding: 18px;
+    width: 100%;
+}
+
+.work-card > .card-background > .card-content > h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 42px;
+}
+
+.work-card > .card-background > .card-content > p {
+    margin: 0;
+    color: #B2B2B2;
+    line-height: 18px;
+}
+
+.badges {
+    padding: 8px 0px;
+    width: 100%;
+}
+
+.badges > span {
+    -webkit-tap-highlight-color: transparent;
+    font-size: 0.625rem;
+    height: 1.125rem;
+    line-height: calc(1.125rem - 0.125rem);
+    padding: 0 calc(0.75rem / 1.5);
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    text-transform: uppercase;
+    border-radius: 0.125rem;
+    font-weight: 700;
+    letter-spacing: 0.015625rem;
+    cursor: inherit;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: #fd7e14;
+    color: #fff;
+    border: 0.0625rem solid transparent;
+    opacity: 0.8;
+}
+
+.gear-container {
+    width: 200px;
+    height: 200px;
+    animation: rotate 5s linear infinite;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    top: 5%;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    bottom: 5%;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.airplane-container  {
+    animation: fly 2s ease infinite;
+    transform-origin: center bottom;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.contact-card {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.contact-card > form {
+    width: 80%;
+    margin: 0px 0px 12px 18px;
+}
+
+.contact-card > form > label {
+    display: block;
+    margin-bottom: 5px;
+    color: #303030;
+}
+
+.contact-card > form > input[type="text"],
+.contact-card > form > input[type="email"],
+.contact-card > form > textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-card > form > textarea {
+    height: 100px;
+}
+
+.button {
+    border: #303030 2px solid;
+    padding: 8px 32px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #303030;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.button:hover {
+    border: #303030 2px solid;
+    text-decoration: none;
+    color: white;
+    background-color: #303030;
+}
+
+.button-disable {
+    border: #888 2px solid;
+    padding: 8px 32px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #888;
+    font-weight: 500;
+    cursor: not-allowed;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* Warna latar belakang dengan efek transparan */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 22px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 320px; 
+    text-align: center;
+    color: #303030;
+    font-size: 18px;
+}
+
+.close-button {
+    border: #303030 2px solid;
+    padding: 8px 32px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #303030;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    border: #303030 2px solid;
+    text-decoration: none;
+    color: white;
+    background-color: #303030;
+}
+
+@media screen and (max-width: 768px) {
+    .container-work-card {
+        display: block;
+        height: auto;
+    }
+    .work-card {
+        display: block;
+        margin: 18px auto;
+    }
+    .left {
+        left: -18px;
+        top: -18px;
+    }
+    
+    .right {
+        right: -18px;
+        bottom: -18px;
+    }
+    .airplane-container  {
+        left: 40%;
+    }
+    .modal-content {
+        width: calc(80% - 4px);
+    }
 }

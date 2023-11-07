@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Bio
-permalink: /bio/
+title: Blog
+permalink: /blog/
 comments: false
 ---
-
