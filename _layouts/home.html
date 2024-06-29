@@ -73,7 +73,7 @@ layout: default
       {% for post in site.posts %}
       <div class="card">
           <div class="card-content" style="min-height: 220px;">
-              <span class="post-date">{{ post.date | date: "%b %d, %Y" }} • {{ post.content | reading_time }}</span>
+              <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
               <h2>{{ post.title }} • {{ post.language }}</h2>
               <p style="text-align: justify;">{{ post.content | strip_html | truncatewords: 20 }}</p>
               <a href="{{ post.url }}" class="button" >Read more</a>
