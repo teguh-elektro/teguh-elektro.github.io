@@ -3,6 +3,8 @@ layout: post
 title:  "Pengenalan Diri"
 language: "ID"
 read_time: 1
+image: /assets/images/posts/2024-06-29/me-and-toba.png
+description: Nama saya Teguh Setiawan. Saya tinggal dan besar di Pekanbaru, kota yang dikenal dengan sebutan Kota Bertuah. Saya sangat senang bisa berbagi sedikit tentang diri saya di sini.
 ---
 
 # Halo semuanya!
