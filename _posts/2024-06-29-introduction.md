@@ -9,7 +9,7 @@ description: My name is Teguh Setiawan. I was born and raised in Pekanbaru, a ci
 
 # Hello everyone!
 
-My name is Teguh Setiawan. I was born and raised in Pekanbaru, a city known as "Kota Bertuah" I’m excited to share a little bit about myself here.
+My name is Teguh Setiawan. I live in Indonesia. I’m excited to share a little bit about myself here.
 
 In my day-to-day life, I work as a web developer. My job involves creating and maintaining websites and web applications. Every project I work on presents new and interesting challenges, and I really enjoy the process of crafting digital solutions that are both effective and meaningful. For me, every line of code is an opportunity to create something new and useful.
 
