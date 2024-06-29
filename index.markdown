@@ -4,6 +4,6 @@
 
 title: Teguh Setiawan's Website
 layout: home
-image: /assets/images/posts/website.png
+image: /assets/images/works/website.png
 description: Hi! I’m Teguh Setiawan. I’m a web developer who also enjoys DIY electronics as a hobby. I created this website to share my experiences with programming, my passion for DIY electronics, and stories from my travel adventures. I hope that my website and blog can be useful and inspiring for you.
 ---
