@@ -4,7 +4,7 @@ title:  "Introduction"
 language: "EN"
 read_time: 1
 image: /assets/images/posts/2024-06-29/me-and-toba.jpg
-description: My name is Teguh Setiawan. I was born and raised in Pekanbaru, a city known as "Kota Bertuah" I’m excited to share a little bit about myself here.
+description: My name is Teguh Setiawan. I live in Indonesia. I’m excited to share a little bit about myself here.
 ---
 
 # Hello everyone!
