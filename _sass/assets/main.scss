@@ -1,3 +1,15 @@
+#background {
+    // background-color: #FEFEFE;
+    // width: 100%;
+    // height: 100%;
+    // filter: blur(10px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+
+}
+
 .container-card {
     height: 100vh;
     display: flex;
@@ -62,22 +74,22 @@ p {
 #particles-js {
     position: absolute;
     width: 100%;
-    height: 100vh;
-    z-index: 1;
+    height: 100%;
+    z-index: -1;
     left: 0px;
     top: 0px;
+    filter: blur(10px);
+    background-color: #FEFEFE;
 }
 
 .container-work-card {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     position: relative;
     overflow: hidden;
 }
 
 .work-card {
+    display: inline-block;
     position: relative;
     max-width: 300px;
     height: 400px;
@@ -87,7 +99,7 @@ p {
     transition: transform 0.3s;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin: 0px 12px;
+    margin: 6px;
 }
 
 .card-image {
@@ -119,6 +131,7 @@ p {
 .work-card > .card-background > .card-content {
     padding: 18px;
     width: 100%;
+    text-align: left;
 }
 
 .work-card > .card-background > .card-content > h2 {
@@ -256,6 +269,10 @@ p {
     background-color: transparent;
 }
 
+.button:visited {
+    color: #303030;
+}
+
 .button:hover {
     border: #303030 2px solid;
     text-decoration: none;
@@ -337,4 +354,89 @@ p {
     .modal-content {
         width: calc(80% - 4px);
     }
+}
+
+
+.container-grid {
+    padding: 20px;
+}
+
+.grid {
+    list-style: none;
+    padding: 0;
+    margin-left: 0px;
+    max-width: 400px;
+}
+
+.card {
+    margin: 6px;
+    display: inline-block;
+    max-width: 400px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+// .card:hover {
+//     transform: translateY(-5px);
+// }
+
+.card-content {
+    padding: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.post-date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.card p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    position: absolute;
+    bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:visited {
+    color: white;
+}
+
+
+.container-blog-card {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
