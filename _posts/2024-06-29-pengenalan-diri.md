@@ -2,6 +2,7 @@
 layout: post
 title:  "Pengenalan Diri"
 language: "ID"
+read_time: 1
 ---
 
 # Halo semuanya!

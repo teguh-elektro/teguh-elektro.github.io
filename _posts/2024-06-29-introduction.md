@@ -2,6 +2,7 @@
 layout: post
 title:  "Introduction"
 language: "EN"
+read_time: 1
 ---
 
 # Hello everyone!
