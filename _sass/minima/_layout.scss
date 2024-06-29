@@ -4,7 +4,7 @@
 .site-header {
   position: fixed !important;
   width: 100%;
-  min-height: $spacing-unit * 1.865;
+  min-height: 30px * 1.865;
 
   // Positioning context for the mobile navigation icon
   backdrop-filter: blur(5px);
@@ -54,7 +54,7 @@
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
-    right: calc($spacing-unit / 2);
+    right: calc(30px / 2);
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
@@ -112,7 +112,7 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: 30px 0;
   text-align: center;
   // filter: blur(10px);
   background-color: #fefefe;
@@ -122,7 +122,7 @@
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: calc($spacing-unit / 2);
+  margin-bottom: calc(30px / 2);
 }
 
 .contact-list,
@@ -134,49 +134,49 @@
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
-  margin-left: calc($spacing-unit / 2 * -1);
+  margin-left: calc(30px / 2 * -1);
   @extend %clearfix;
 }
 
 .footer-col {
   float: left;
-  margin-bottom: calc($spacing-unit / 2);
-  padding-left: calc($spacing-unit / 2);
+  margin-bottom: calc(30px / 2);
+  padding-left: calc(30px / 2);
 }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(35% - (#{30px} / 2));
+  width:         calc(35% - (#{30px} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(20% - (#{30px} / 2));
+  width:         calc(20% - (#{30px} / 2));
 }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(45% - (#{30px} / 2));
+  width:         calc(45% - (#{30px} / 2));
 }
 
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{30px} / 2));
+    width:         calc(50% - (#{30px} / 2));
   }
 
   .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(100% - (#{30px} / 2));
+    width:         calc(100% - (#{30px} / 2));
   }
 }
 
 @include media-query($on-palm) {
   .footer-col {
     float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(100% - (#{30px} / 2));
+    width:         calc(100% - (#{30px} / 2));
   }
 }
 
@@ -195,7 +195,7 @@
 }
 
 .post {
-  margin-top: $spacing-unit * 1.865 + 20;
+  margin-top: 30px * 1.865 + 20;
 }
 
 .post-list-heading {
@@ -207,7 +207,7 @@
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 30px;
   }
 }
 
@@ -228,7 +228,7 @@
  */
 .post-header {
   margin-top: 18px;
-  margin-bottom: $spacing-unit;
+  margin-bottom: 30px;
 }
 
 .post-title {
@@ -242,7 +242,7 @@
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
+  margin-bottom: 30px;
 
   h2 {
     @include relative-font-size(2);
