@@ -17,14 +17,14 @@
   <meta property="og:url" content="{{ site.url }}{{ home.url }}" />
   <meta property="og:title" content="{{ home.title }}" />
   <meta property="og:description" content="{{ home.description }}" />
-  <meta property="og:image" content="{{ site.url }}{{ home.image }}" />
+  <meta property="og:image" content="{{ home.image }}" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="{{ site.url }}{{ home.url }}" />
   <meta property="twitter:title" content="{{ home.title }}" />
   <meta property="twitter:description" content="{{ home.description }}" />
-  <meta property="twitter:image" content="{{ site.url }}{{ home.image }}" />
+  <meta property="twitter:image" content="{{ home.image }}" />
 
   {%- else if page.title -%}
   <!-- Primary Meta Tags -->
@@ -37,14 +37,14 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{{ page.description }}" />
-  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  <meta property="og:image" content="{{ page.image }}" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="twitter:title" content="{{ page.title }}" />
   <meta property="twitter:description" content="{{ page.description }}" />
-  <meta property="twitter:image" content="{{ site.url }}{{ page.image }}" />
+  <meta property="twitter:image" content="{{ page.image }}" />
 
   {%- else if post.title -%}
   <!-- Primary Meta Tags -->
@@ -57,14 +57,14 @@
   <meta property="og:url" content="{{ site.url }}{{ post.url }}" />
   <meta property="og:title" content="{{ post.title }}" />
   <meta property="og:description" content="{{ post.description }}" />
-  <meta property="og:image" content="{{ site.url }}{{ post.image }}" />
+  <meta property="og:image" content="{{ post.image }}" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="{{ site.url }}{{ post.url }}" />
   <meta property="twitter:title" content="{{ post.title }}" />
   <meta property="twitter:description" content="{{ post.description }}" />
-  <meta property="twitter:image" content="{{ site.url }}{{ post.image }}" />
+  <meta property="twitter:image" content="{{ post.image }}" />
   {%- endif -%}
   <!-- {%- feed_meta -%} -->
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
