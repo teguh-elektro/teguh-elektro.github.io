@@ -21,3 +21,4 @@ plugins:
 - jekyll-feed
 include:
 - _uploads
+- ads.txt
