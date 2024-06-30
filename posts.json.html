@@ -10,7 +10,7 @@ layout:
       "title": "{{ post.title | escape }}",
       "date": "{{ post.date | date: '%b %d, %Y' }}",
       "read_time": {{ post.read_time | default: 0 }},
-      "url": "{{ post.url | relative_url }}",
+      "url": "{{ post.url | remove: site.url }}",
       "tags": "{{ post.tags | join: ' ' }}",
       "description": "{{ post.description | strip_html | strip_newlines | escape | default: post.content | strip_html | truncatewords: 20 }}"
     }{% unless forloop.last %},{% endunless %}
