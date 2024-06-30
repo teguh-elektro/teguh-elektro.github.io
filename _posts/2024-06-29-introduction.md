@@ -1,10 +1,12 @@
 ---
+title: Introduction
+date: 2024-06-29 00:00:00 Z
 layout: post
-title:  "Introduction"
-language: "EN"
+language: EN
 read_time: 1
-image: /assets/images/posts/2024-06-29/me-and-toba.jpg
-description: My name is Teguh Setiawan. I live in Indonesia. I’m excited to share a little bit about myself here.
+image: "/assets/images/posts/2024-06-29/me-and-toba.jpg"
+description: My name is Teguh Setiawan. I live in Indonesia. I’m excited to share
+  a little bit about myself here.
 ---
 
 # Hello everyone!
