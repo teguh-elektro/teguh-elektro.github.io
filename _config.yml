@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-baseurl: ""
+baseurl: ''
 url: teguh-setiawan.com
 github_username: teguh-elektro
 instagram_username: midori.board
