@@ -6,6 +6,7 @@ image: "/uploads/monitor.jpeg"
 read_time: 9
 description: Teguh Setiawan memulai karir sebagai IT Support kemudian beralih ke web
   developer. Ikuti perjalanan karirnya, dari bootcamp hingga menjadi Fullstack Developer.
+layout: post
 ---
 
 ![monitor.jpeg](/uploads/monitor.jpeg)
