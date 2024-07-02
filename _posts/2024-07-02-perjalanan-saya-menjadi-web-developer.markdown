@@ -18,6 +18,8 @@ Setelah yakin bahwa materi yang saya pelajari sudah cukup, saya mencoba melamar 
 
 ## Mengubah karir dengan mengikuti bootcamp
 
+![me-at-arkademy.JPG](/uploads/me-at-arkademy.JPG)
+
 Pada Oktober 2019, saya mengikuti tes dari Arkademy dan berhasil lolos dari ratusan peserta, menyisakan sekitar 30 orang. Kemudian, dilanjutkan dengan wawancara dan saya kembali lolos, menyisakan 10 peserta. Setelah dinyatakan lolos, saya memutuskan untuk resign dari pekerjaan saya sebelumnya dan mengikuti bootcamp ini di Bogor. Pada November 2019, saya mulai mengikuti bootcamp Fullstack Developer Arkademy. Awalnya, saya kira materi yang saya pelajari di Sololearn sudah cukup, ternyata masih banyak yang harus saya pelajari lagi. Saya mempelajari Express, React, dan React Native dalam waktu 6 minggu. Dalam waktu yang sempit tersebut, saya bahkan hanya tidur 4 jam sehari. Meskipun merasakan tekanan, saya senang karena mendapatkan ilmu dan pengalaman berharga yang membuka wawasan baru saya mengenai modern web development. Setelah minggu kelima, saya mendapatkan kesempatan wawancara di perusahaan software house bernama Nashta Global Utama di Depok dan diterima bekerja.
 
 ## Mengawali karir *web developer* sebagai *Frontend developer*
@@ -42,6 +44,6 @@ Tahun ini, 2024, saya sudah bekerja di sini selama lebih dari 3 tahun, mendapatk
 
 ## Rencana kedepan
 
-![me-at-garuda.jpeg](/uploads/me-at-garuda.jpeg)
+![bromo.jpg](/uploads/bromo.jpg)
 
-Ketika ChatGPT dirilis tahun 2023, saya mulai berpikir apakah saya dapat terus mengembangkan karir saya di web development. Mengingat sudah banyak SaaS yang menggunakan AI untuk mengenerate website dan web app hanya melalui prompt, seperti [V0](https://v0.dev) dari Vercel. Mungkin sekarang saya tidak menganggap ini sebagai ancaman, tapi ketika data model sudah banyak, maka menggenerate web app atau website melalui AI akan semakin akurat. Oleh karena itu, saya mulai tertarik untuk mempelajari Generative AI.
+Ketika ChatGPT dirilis tahun 2023, saya mulai berpikir apakah saya dapat terus mengembangkan karir saya di web development. Mengingat sudah banyak SaaS yang menggunakan AI untuk mengenerate website dan web app hanya melalui prompt, seperti [V0](https://v0.dev) dari Vercel. Mungkin sekarang saya tidak menganggap ini sebagai ancaman, tapi ketika data model sudah banyak, maka menggenerate web app atau website melalui AI akan semakin akurat. Oleh karena itu, saya mulai tertarik untuk mempelajari Generative AI kedepannya.
