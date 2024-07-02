@@ -22,7 +22,7 @@ pada Januari 2020 saya mulai bekerja di Nashta global utama sebagai frontend web
 
 ## Mendapat kesempatan menjadi *Fullstack web developer* dan bekerja jarak jauh
 
-![me-in-sg.jpg](/api/v2/sites/6680f0b7aaaf324772b0e8ef/source/_uploads/me-in-sg.jpg?download "foto di merlion ketika mengujungi kantor perusahaan di singapura")
+![me-in-sg.jpg](/uploads/me-in-sg.jpg "foto di merlion ketika mengujungi kantor perusahaan di singapura")
 
 pada April 2021 saya mulai bekerja sebagai *Fullstack developer* di perusahaan *startup* singapura mengenai energi terbarukan secara jarak jauh(*Work from anywhere*). dengan bahasa inggris yang masih terbata-bata saya tetap mengambil resiko dan resign di perusahaan sebelumnya walaupun saya hanya dikontrak 6 bulan pada awalnya.
 
