@@ -1,10 +1,14 @@
 ---
 title: Perjalanan saya menjadi web developer
 date: 2024-07-02 10:53:00 Z
-published: false
+language: ID
+image: "/uploads/monitor.jpeg"
+read_time: 9
+description: Teguh Setiawan memulai karir sebagai IT Support kemudian beralih ke web
+  developer. Ikuti perjalanan karirnya, dari bootcamp hingga menjadi Fullstack Developer.
 ---
 
-![monitor-8d926c.jpg](/uploads/monitor.jpg)
+![monitor.jpeg](/uploads/monitor.jpeg)
 
 Saya lulus diploma 4 jurusan Elektronika Telekomunikasi di Politeknik Caltex Riau pada November 2018. Sebelum lulus, saya sudah mencari pekerjaan di portal lowongan kerja online seperti Jobstreet, Indeed, dan lainnya. Saya merasa telah melamar ratusan lowongan selama beberapa bulan, namun tidak ada progres apapun untuk tes atau wawancara. Pada Januari 2019, saya mendapat kesempatan tes online dan wawancara di perusahaan pengelola kelapa bernama Sambu Group di salah satu perusahaan mereka dan diterima bekerja.
 
