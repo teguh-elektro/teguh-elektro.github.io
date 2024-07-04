@@ -1,6 +1,12 @@
 ---
 title: Cara mempelajari web development
 date: 2024-07-04 15:27:00 Z
+language: ID
+read_time: 20
+image: "/uploads/monitor.jpeg"
+description: Belajar JS, HTML, CSS untuk membangun website static dengan tools VScode
+  dan git.
+layout: post
 ---
 
 ![kode-gagal.jpeg](/uploads/kode-gagal.jpeg)
