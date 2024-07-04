@@ -17,7 +17,7 @@ dalam artikel ini saya akan menulis bagaimana cara mempelajari web development d
 
 Untuk penjelasan dalam bentuk video,  anda dapat melihat video webinar saya di bawah:
 
-[![Video YouTube](https://img.youtube.com/vi/lrU7h3ERrIk/hqdefault.jpg)](https://www.youtube.com/watch?v=lrU7h3ERrIk&t=36m50s)
+[![Video YouTube](https://img.youtube.com/vi/lrU7h3ERrIk/maxresdefault.jpg)](https://www.youtube.com/watch?v=lrU7h3ERrIk&t=36m50s)
 
 ## Text editor
 
@@ -37,6 +37,6 @@ bahasa pemograman yaitu bahasa yang dapat mengkakulasi angka, menyimpan variable
 
 # Buat website lebih interaktif dengan DOM
 
-DOM digunakan untuk membuat javasript dapat mengubah atau memanipulasi atribut pada tag html. 
+DOM digunakan untuk membuat javasript dapat mengubah atau memanipulasi atribut pada tag html.
 
 Jika anda ingin memiliki mentor untuk belajar web development dasar, anda dapat mengunjungi [bootcamp blend](https://www.blendinnovation.com/bootcamp)
