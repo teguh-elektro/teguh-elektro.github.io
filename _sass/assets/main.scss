@@ -500,37 +500,23 @@ p {
 
 .pagination {
     list-style-type: none;
-    padding: 0;
+    padding: 6px 12px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    padding: 6px;
-    max-width: 300px;
+    max-width: 310px;
     z-index: 10;
+}
 
-    span {
-        cursor: pointer;
-        display: inline-block;
-        padding: 10px 15px;
-        margin: 0 5px;
-        text-decoration: none;
-        color: #303030;
-        border-radius: 4px;
+.page_number {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
 
-        &:hover {
-            background-color: #303030;
-            color: #fefefe;
-        }
-    }
-
-    .current {
-        background-color: #303030;
-        color: #fff;
-    }
-
-    .prev,
-    .next {
-        font-weight: bold;
-        color: #303030;
-    }
+.next, .prev {
+    display: inline-block;
+    width: 70px; 
+    text-align: center; 
+    margin: 6px;
 }

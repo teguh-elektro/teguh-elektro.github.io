@@ -69,19 +69,43 @@ layout: default
 
 <div style="margin: 24px 0px; min-height: 100vh;" id="blogs">
   <h2 style="margin-bottom: 12px; text-align: center; font-weight: 500;">Blog</h2>
-  <div style="width: 100%; display: flex; justify-content: center;">
-    <div class="search">
-      <input type="text" name="search" id="search" placeholder="Search keywords...">
-      <div id="categories"></div>
-    </div>
-  </div>
   <div class="container-blog-card">
-    <div class="container-grid" id="post1"></div>
-  </div>
-  <div style="width: 100%; display: flex; justify-content: center;">
-    <div class="pagination" id="pagination1">
+    <div class="container-grid">
+      {% for post in paginator.posts %}
+        <article class="card">
+          <div class="card-content" style="min-height: 220px;">
+              <span class="post-date">{{ post.date | date: "%b %d, %Y" }}
+                {% if post.read_time %}
+                   • {{ post.read_time }} min read
+                {% endif %}
+              </span>
+              <h2>{{ post.title }}
+                {% if post.language %}
+                  • {{ post.language }}
+                {% endif %}
+              </h2>
+              <p style="text-align: justify;">{{ post.description | strip_html | strip_newlines | escape | default: post.content | strip_html | truncatewords: 20 }}</p>
+              <a href="{{post.url}}" class="button" >Read more</a>
+          </div>
+        </article>
+      {% endfor %}
     </div>
   </div>
+  {% if paginator.total_pages > 1 %}
+  <div style="width: 100%; display: flex; justify-content: center;">
+    <div class="pagination">
+      <span class="page_number">
+        Page: {{ paginator.page }} of {{ paginator.total_pages }}
+      </span>
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}#blogs" class="button prev">Previous</a>
+      {% endif %}
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}#blogs" class="button next">Next</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
 </div>
 
 <div class="container-card" id="contact">
