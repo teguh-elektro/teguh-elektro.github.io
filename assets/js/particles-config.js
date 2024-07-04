@@ -274,6 +274,7 @@ async function fetchSearchData() {
 // Panggil fungsi saat halaman dimuat
 window.addEventListener("load", async function () {
     adjustCanvasHeight();
+    return;
     // pagination();
 
     data = await fetchSearchData();
