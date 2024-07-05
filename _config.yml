@@ -18,9 +18,10 @@ disqus:
 google_analytics: G-FZNZ964PT3
 theme: minima
 plugins:
-- jekyll-feed
+- jekyll-sitemap
 - jekyll-paginate
 include:
 - _uploads
 - ads.txt
+- robot.txt
 paginate: 4
