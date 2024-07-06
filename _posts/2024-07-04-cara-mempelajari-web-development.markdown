@@ -3,7 +3,7 @@ title: Cara mempelajari web development
 date: 2024-07-04 15:27:00 Z
 language: ID
 read_time: 20
-image: "/uploads/monitor.jpeg"
+image: "/uploads/kode-gagal.jpeg"
 description: Belajar JS, HTML, CSS untuk membangun website static dengan tools VScode
   dan git.
 layout: post
@@ -47,18 +47,9 @@ halaman web memilki rangka yaitu head dan body. di head berisi mengenai informas
 
 di HTML kita tidak dapat memberi warna, jenis font, alignment dll. oleh karna itu css dibutuhkan untuk memberi styling pada tag HTML.
 
-# Buat website lebih interaktif dengan DOM
+## Buat website lebih interaktif dengan DOM
 
 DOM digunakan untuk membuat javasript dapat mengubah atau memanipulasi atribut pada tag html.
-
-## Simpan kode dalam versi menggunakan Git
-
-saat mengerjakan skripsi, saya menggunkan judul `skripsi-final.docs`, `skripsi-final-final.docs`, `skripsi-final-final-fix-sidang.docs`. jika anda menyimpan kode anda dengan cara tersebut, maka anda akan bingung dimana versi terbaru dari kode anda atau versi kode sebelumnya. oleh karena itu kita akan menggunakan GIT untuk menyimpan versi setiap kode kita dengan hanya 1 judul. download dan install git dengan mengikuti instruksi di [wesbite git](https://git-scm.com/downloads). ketika sudah berhaisl menginstall git, kembali ke vscode anda dan pilih menu terminal dan klik new terminal atau anda dapat menggunakan shortcut \`ctrl\+shift\+\`\` ddfdfdf fdfdf. kemudian ketik git init untuk menginisial file git anda. setiap anda melakukan berubahan, jangan lupa untuk menyimpan versi kode anda dengan cara mencommitnya
-
-    git add . 
-    git commit -m "pesan anda"
-
-untuk menyimpan di cloud, anda dapat menggunakan github. saya akan membuat artikel bagaimana mengupload kode di git lokal kita ke github.
 
 ## Penutup
 
