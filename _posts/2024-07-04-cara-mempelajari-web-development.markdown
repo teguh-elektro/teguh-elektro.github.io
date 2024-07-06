@@ -21,6 +21,8 @@ untuk text editor dapat menggunakan [VScode](https://code.visualstudio.com) anda
 
 ## Bahasa pemrograman dengan Javascript
 
+![1 + 1 tidak sama dengan 1](/uploads/js.mp4)
+
 bahasa pemograman yaitu bahasa yang dapat mengkakulasi angka, menyimpan variable, melakukan kondisi logika, dan dapat melakukan pengulangan(looping). jika ada suatu bahasa pemograman tidak dapat melakukan hal tersebut maka itu tidak dpaat disebut bahasa pemograman seperti HTML dan CSS.
 
 ## HTML sebagai kerangka website
