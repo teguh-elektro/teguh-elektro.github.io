@@ -61,6 +61,18 @@ img {
   vertical-align: middle;
 }
 
+p:has(img) {
+  &::after {
+    content: attr(data-alt);
+    display: block;
+    font-size: 14px;
+    color: #6B6B6B;
+    margin-top: 5px;
+    text-align: center;
+  }
+}
+
+
 /**
  * Figures
  */

@@ -2,6 +2,17 @@
 layout: default
 ---
 
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+          const containers  = document.querySelectorAll('p:has(img)');
+          containers .forEach(container  => {
+              const img = container.querySelector("img");
+              const altText = img.getAttribute("alt");
+              container.setAttribute("data-alt", altText);
+          });
+      });
+</script>
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
