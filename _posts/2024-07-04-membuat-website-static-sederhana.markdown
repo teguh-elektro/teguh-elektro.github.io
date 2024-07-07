@@ -4,7 +4,8 @@ date: 2024-07-04 15:27:00 Z
 language: ID
 read_time: 7
 image: "/uploads/kode-gagal.jpeg"
-description: Belajar membangun website static sederhana menggunakan HTML, CSS dan VScode.
+description: Belajar membangun website static sederhana menggunakan HTML, CSS dan
+  VScode.
 layout: post
 ---
 
