@@ -1,5 +1,5 @@
 ---
-title: Tahap mempelajari web development
+title: Membuat Website Statis Sederhana
 date: 2024-07-04 15:27:00 Z
 language: ID
 read_time: 20
@@ -11,25 +11,29 @@ layout: post
 
 ![Pesan programmer yang ̷p̷u̷t̷u̷s̷ ̷a̷s̷a̷  penuh semangat](/uploads/kode-gagal.jpeg)
 
-dalam artikel ini saya akan menulis bagaimana cara mempelajari web development dengan level membuat website static. website static yaitu website yang hanya menyajikan informasi tanpa ada feedback atau interaksi dari user, contohnya anda membuka website profile perusahaan, website pemerintah, dam website berita, disana hanya akan menyajikan informasi text gambar atau grafik tanpa ada interaksi seperti like atau komentar dari user. di modern web development terdapat 2 pembagian development yaitu frontend dan backen, frontend merupakan tampilan atau interface yang langsung dilihat atau digunakan user, sedangkan backend yaitu tempat data disimpan dan diproses kemudian disajikan ke frontend untuk ditampilkan ke user. dan ada istilah programmer yang mengerjakan kedua sisi frontend dan backend yang disebut dengan fullstack developer. untuk artikel ini saya akan menyajikan bagaimana membuat website static yang mana itu hanya disisi frontend. Untuk penjelasan dalam bentuk video,  anda dapat melihat [video webinar saya](https://www.youtube.com/watch?v=lrU7h3ERrIk&t=36m50s).
+Halo! Dalam artikel ini, saya akan menjelaskan langkah-langkah untuk memulai belajar web development dengan cara yang sederhana dan mudah diikuti. Kita akan fokus pada pembuatan **website statis**, yaitu jenis website yang hanya menampilkan informasi tanpa adanya interaksi dari pengguna. Contoh website statis adalah website profil perusahaan, website pemerintah, atau website berita. Website ini hanya menampilkan informasi seperti teks, gambar, atau grafik tanpa fitur interaktif seperti komentar atau like.
 
-## Text editor
+## VScode sebagai alat text editor
 
 ![new-file-at-vscode.gif](/uploads/new-file-at-vscode.gif)
 
-untuk text editor dapat menggunakan [VScode](https://code.visualstudio.com) anda dapat meninstallnya dengan mengikuti intruksi di wesbite vscode sesuai dengan OS yang anda gunakan. ketika anda sudah berhasil menginstallnya, anda dapat membuat 1 file yang bernama index.html.
+Langkah pertama untuk memulai adalah memilih **text editor**. Ini adalah program yang Anda gunakan untuk menulis kode. Salah satu text editor yang sangat populer adalah [Visual Studio Code (VScode)](https://code.visualstudio.com).
 
-## Bahasa pemrograman dengan Javascript
+Anda bisa mengunduh VScode dari situs webnya dan menginstalnya di komputer Anda. Setelah berhasil diinstal, buka VScode dan buatlah file baru dengan nama `index.html`. Ini adalah file utama yang akan kita gunakan untuk membuat halaman website pertama Anda.
 
-![contoh menjalankan kode javascript di terminal menggunakan node js](/uploads/js.gif)
-
-bahasa pemograman yaitu bahasa yang dapat mengkakulasi angka, menyimpan variable, melakukan kondisi logika, dan dapat melakukan pengulangan(looping). jika ada suatu bahasa pemograman tidak dapat melakukan hal tersebut maka itu tidak dpaat disebut bahasa pemograman seperti HTML dan CSS.
-
-## HTML sebagai kerangka website
+## HTML: Membuat struktur website
 
 ![Struktur sematic HTML](/uploads/html-semantic-structure.png)
 
-halaman web memilki rangka yaitu head dan body. di head berisi mengenai informasi website seperti judul, deskripsi dan gambar untuk mesin pencarian seperti google mengunakan meta tag dan untuk mengimport berbagai keperluan yang kita butuhan untuk halaman seperti styling(css), script(Javascript) dan ikon(.ico), sedangkan di body adalah bagian tampilan yang dimunculkan terdapat pada body dan di body sendiri memilki kerangkanya lagi yaitu header, artikel, aside, footer.  lebih baik fokus untuk mempelajari tag-tag yang ada di bagian body terdahulu. anda dapat menyalin code dibawah ke index.html yang telah anda buat di vscode.
+**HTML** (HyperText Markup Language) adalah bahasa yang digunakan untuk membuat struktur dasar halaman web. HTML memberi tahu browser bagaimana menampilkan teks, gambar, dan elemen lainnya di halaman web.
+
+Setiap halaman web memiliki dua bagian utama: **head** dan **body**.
+
+* **Head** berisi informasi penting tentang halaman web seperti judul halaman, deskripsi, dan link ke file CSS atau JavaScript. Informasi ini tidak terlihat langsung di halaman web, tetapi membantu mesin pencari dan browser memahami konten halaman.
+
+* **Body** adalah bagian yang terlihat oleh pengunjung. Di sini Anda bisa menambahkan elemen seperti header, artikel, sidebar, dan footer.
+
+Pada HTML, kita menggunakan **tag** untuk membungkus elemen, seperti `<head>`, `<body>`, `<main>`, `<header>`, dll. Di dalam tag, kita bisa menggunakan **atribut** seperti `charset='utf-8'`, `href="/"`, `id="profile"`, dll. Berikut adalah contoh kode HTML sederhana. Salin kode ini ke dalam file `index.html` yang telah Anda buat di VScode:
 
     <!DOCTYPE html>
     <html>
@@ -74,13 +78,17 @@ halaman web memilki rangka yaitu head dan body. di head berisi mengenai informas
     </body>
     </html>
 
+Untuk menjalankan file `index.html`, Anda hanya perlu mengklik file `index.html` di lokasi penyimpanan Anda.
+
 ![file-location.png](/uploads/file-location.png)
 
 ## Perindah tampilan website dengan CSS
 
 ![css-effects.png](/uploads/css-effects.png)
 
-di HTML kita tidak dapat memberi warna, jenis font, alignment dll. oleh karna itu css dibutuhkan untuk memberi styling pada tag HTML.
+**CSS** (Cascading Style Sheets) adalah bahasa yang digunakan untuk memberikan **gaya** pada halaman web. CSS memungkinkan kita untuk mengubah tampilan website seperti warna latar belakang, jenis font, tata letak elemen, dll.
+
+Di dalam CSS, kita menggunakan **selector** seperti `body`, `header`, `nav a`, dll., dan di dalam kurung kurawal, kita menuliskan **property** dan **value**. Berikut adalah contoh kode CSS yang bisa Anda tambahkan di file `index.html` di dalam tag `<style>`:
 
     <style>
         body {
@@ -144,20 +152,10 @@ di HTML kita tidak dapat memberi warna, jenis font, alignment dll. oleh karna it
         }
     </style>
 
-## Buat website lebih interaktif dengan DOM
+## Kesimpulan
 
-![show-alert.png](/uploads/show-alert.png)
+Selamat! Anda telah menyelesaikan tutorial dasar tentang bagaimana cara membuat website statis. Anda telah belajar tentang HTML untuk struktur website dan CSS untuk styling. Web development adalah bidang yang sangat luas dan ada banyak hal yang bisa Anda pelajari di luar dasar-dasar ini. 
 
-DOM digunakan untuk membuat javasript dapat mengubah atau memanipulasi atribut pada tag html. pada kode html diatas terdapat tag input dan button, mari kita coba munculkan nama yang telah ditulis di input ke popup setelah klik button kirim
+Jika Anda merasa tertarik untuk belajar lebih dalam, Anda bisa mencari kursus atau **bootcamp** untuk mendapatkan bimbingan lebih lanjut. Salah satu tempat yang bisa Anda coba adalah [Bootcamp Blend](https://www.blendinnovation.com/bootcamp), di mana Anda bisa menemukan mentor yang akan membantu Anda mempelajari web development lebih lanjut.
 
-    <script>
-        document.getElementById('profileForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Mencegah form dikirim
-            const name = document.getElementById('name').value;
-            alert(`Nama Kamu adalah: ${name}`);
-        });
-    </script>
-
-## Penutup
-
-tenang jalan untuk mempelajari web development masih panjang, diatas anda sudah memngetahui gamabran umum bagaiamana cara membuat website static atau bisa dibilang anda telah mempelajari frontend development secara sederhana. saya harap dengan artikel ini membuat anda meliki gambaran bagaimana cara membuat website dan melanjutkan ke tahap lebih advance.  Jika anda ingin memiliki mentor untuk belajar web development dasar, anda dapat mengunjungi [bootcamp blend](https://www.blendinnovation.com/bootcamp)
+Teruslah berlatih dan eksplorasi dunia web development. Semoga artikel ini bermanfaat bagi Anda dan memotivasi Anda untuk melanjutkan belajar. Selamat mencoba!
