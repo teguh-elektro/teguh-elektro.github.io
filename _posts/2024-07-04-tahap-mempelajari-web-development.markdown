@@ -1,5 +1,5 @@
 ---
-title: Cara mempelajari web development
+title: Tahap mempelajari web development
 date: 2024-07-04 15:27:00 Z
 language: ID
 read_time: 20
@@ -31,25 +31,131 @@ bahasa pemograman yaitu bahasa yang dapat mengkakulasi angka, menyimpan variable
 
 halaman web memilki rangka yaitu head dan body. di head berisi mengenai informasi website seperti judul, deskripsi dan gambar untuk mesin pencarian seperti google mengunakan meta tag dan untuk mengimport berbagai keperluan yang kita butuhan untuk halaman seperti styling(css), script(Javascript) dan ikon(.ico), sedangkan di body adalah bagian tampilan yang dimunculkan terdapat pada body dan di body sendiri memilki kerangkanya lagi yaitu header, artikel, aside, footer.  lebih baik fokus untuk mempelajari tag-tag yang ada di bagian body terdahulu. anda dapat menyalin code dibawah ke index.html yang telah anda buat di vscode.
 
-        <!doctype html>
-        <html lang="en-US">
-          <head>
-            <meta charset="utf-8" />
-            <meta name="viewport" content="width=device-width" />
-            <title>My test page</title>
-          </head>
-          <body>
-            <img src="" alt="My test image" />
-          </body>
-        </html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Website saya</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/#profile">Profile</a>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <ul>
+                    <li>belajar membangun website</li>
+                    <li>apa itu html</li>
+                    <li>fungsi css</li>
+                    <li>bagaimana menjalankan javascript</li>
+                </ul>
+            </aside>
+            <section>
+                <article id="profile">
+                    <h1>Halaman Profile saya</h1>
+                    <p>Saya adalah manusia yang sedang belajar web development.</p>
+                    <hr>
+                    <form id="profileForm">
+                        <label for="nama">Nama kamu:</label>
+                        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda">
+                        <button type="submit"></button>
+                    </form>
+                </article>
+            </section>
+        </main>
+        <footer>
+            @2024 Website saya. All Rights Reserved.
+        </footer>
+    </body>
+    </html>
 
 ## Perindah tampilan website dengan CSS
 
+![css-effects.png](/uploads/css-effects.png)
+
 di HTML kita tidak dapat memberi warna, jenis font, alignment dll. oleh karna itu css dibutuhkan untuk memberi styling pada tag HTML.
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+        main {
+            display: flex;
+            padding: 1em;
+        }
+        aside {
+            width: 25%;
+            padding: 1em;
+            background-color: #f9f9f9;
+            border-right: 1px solid #ddd;
+        }
+        section {
+            width: 75%;
+            padding: 1em;
+        }
+        footer {
+            background-color: #f4f4f4;
+            padding: 1em 0;
+            text-align: center;
+            margin-top: 1em;
+            border-top: 1px solid #ddd;
+        }
+        form {
+            margin-top: 1em;
+        }
+        form label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+        form input[type="text"] {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 0.5em;
+        }
+        form button {
+            padding: 0.5em 1em;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 
 ## Buat website lebih interaktif dengan DOM
 
-DOM digunakan untuk membuat javasript dapat mengubah atau memanipulasi atribut pada tag html.
+![show-alert.png](/uploads/show-alert.png)
+
+DOM digunakan untuk membuat javasript dapat mengubah atau memanipulasi atribut pada tag html. pada kode html diatas terdapat tag input dan button, mari kita coba munculkan nama yang telah ditulis di input ke popup setelah klik button kirim
+```javascript
+<script>
+    document.getElementById('profileForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Mencegah form dikirim
+        const name = document.getElementById('name').value;
+        alert(`Nama Kamu adalah: ${name}`);
+    });
+</script>
+```
 
 ## Penutup
 
