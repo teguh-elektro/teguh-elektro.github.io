@@ -15,7 +15,7 @@ dalam artikel ini saya akan menulis bagaimana cara mempelajari web development d
 
 ## Text editor
 
-![vscode.png](/uploads/vscode.png)
+![new-file-at-vscode.gif](/uploads/new-file-at-vscode.gif)
 
 untuk text editor dapat menggunakan [VScode](https://code.visualstudio.com) anda dapat meninstallnya dengan mengikuti intruksi di wesbite vscode sesuai dengan OS yang anda gunakan. ketika anda sudah berhasil menginstallnya, anda dapat membuat 1 file yang bernama index.html.
 
@@ -73,6 +73,8 @@ halaman web memilki rangka yaitu head dan body. di head berisi mengenai informas
         </footer>
     </body>
     </html>
+
+![file-location.png](/uploads/file-location.png)
 
 ## Perindah tampilan website dengan CSS
 
@@ -147,15 +149,14 @@ di HTML kita tidak dapat memberi warna, jenis font, alignment dll. oleh karna it
 ![show-alert.png](/uploads/show-alert.png)
 
 DOM digunakan untuk membuat javasript dapat mengubah atau memanipulasi atribut pada tag html. pada kode html diatas terdapat tag input dan button, mari kita coba munculkan nama yang telah ditulis di input ke popup setelah klik button kirim
-```javascript
-<script>
-    document.getElementById('profileForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Mencegah form dikirim
-        const name = document.getElementById('name').value;
-        alert(`Nama Kamu adalah: ${name}`);
-    });
-</script>
-```
+
+    <script>
+        document.getElementById('profileForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Mencegah form dikirim
+            const name = document.getElementById('name').value;
+            alert(`Nama Kamu adalah: ${name}`);
+        });
+    </script>
 
 ## Penutup
 
