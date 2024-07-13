@@ -1,6 +1,6 @@
 ---
 title: Menjalankan kode Javascript dengan Node.js
-date: 2024-07-08 06:12:00 Z
+date: 2024-07-09 06:12:00 Z
 layout: post
 ---
 
