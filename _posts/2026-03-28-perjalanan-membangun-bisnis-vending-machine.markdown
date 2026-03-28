@@ -26,7 +26,7 @@ Komponen pertama yang kami buat adalah silo, bagian yang berfungsi untuk menahan
 
 ## Belajar dari nol (lagi)
 
-[percobaan silo berhasil](/uploads/silo-berhasil.mp4)
+![percobaan silo berhasil](/uploads/silo-berhasil.gif)
 
 Karena tidak menemukan solusi, saya memutuskan untuk belajar CAD sendiri. Saya menggunakan [FreeCAD](https://www.freecad.org/), software gratis yang sebelumnya belum pernah saya pakai sama sekali. Sekitar dua bulan saya habiskan hanya untuk belajar dan mencoba mendesain ulang silo dari awal. Di bulan April 2025, akhirnya desain silo versi saya selesai. Dan kali ini, hasilnya jauh lebih baik.
 
