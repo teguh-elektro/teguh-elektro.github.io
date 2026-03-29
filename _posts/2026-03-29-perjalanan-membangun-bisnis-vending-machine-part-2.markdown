@@ -2,8 +2,9 @@
 title: Perjalanan membangun bisnis Vending Machine - part 2
 date: 2026-03-29 09:44:00 Z
 language: ID
-read_time: 
-description: 
+read_time: 6
+description: Perjalanan membangun vending machine kedua dari nol penuh trial and error
+  hingga menghadapi kebuntuan di sistem pendingin.
 ---
 
 Ketika vending machine pertama belum sempurna, saya mulai menyadari satu hal. Proses produksinya terlalu sulit. Banyak bagian yang masih bergantung pada pihak lain, terutama untuk pembuatan storage dan body ACP. Ini membuat proses jadi lambat, mahal, dan sulit diulang. Akhirnya, saya memutuskan untuk membuat versi baru. Versi yang bisa saya buat sendiri, tanpa terlalu bergantung pada orang lain. Saya memilih menggunakan plat galvanis sebagai material utama. Dan di bulan November 2025, versi baru ini pun dimulai. 
